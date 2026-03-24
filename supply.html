@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Farmer Supply</title>
+    <style>
+        body { font-family: Arial; text-align:center; background:#e8f5e9; }
+
+        input, button {
+            padding:10px;
+            margin:10px;
+            width:200px;
+        }
+
+        button {
+            background:green;
+            color:white;
+            border:none;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>Farmer Supply 👨‍🌾</h1>
+
+<input type="text" placeholder="Crop Name"><br>
+<input type="text" placeholder="Quantity (kg)"><br>
+<input type="text" placeholder="Location"><br>
+<input type="text" placeholder="Price per kg"><br>
+
+<button onclick="submitSupply()">Submit</button>
+
+<script>
+function submitSupply(){
+    alert("Supply posted successfully!");
+}
+</script>
+
+</body>
+</html>

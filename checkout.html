@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Checkout</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #f1f8e9;
+            text-align: center;
+        }
+
+        .box {
+            background: white;
+            padding: 20px;
+            margin: 50px auto;
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px gray;
+        }
+
+        input, select {
+            padding: 10px;
+            margin: 10px;
+            width: 90%;
+        }
+
+        button {
+            background: green;
+            color: white;
+            padding: 10px;
+            border: none;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="box">
+    <h2>Checkout 💳</h2>
+
+    <input type="text" placeholder="Full Name"><br>
+    <input type="text" placeholder="Address"><br>
+
+    <select>
+        <option>Cash on Delivery</option>
+        <option>UPI</option>
+        <option>Card Payment</option>
+    </select>
+
+    <button onclick="pay()">Place Order</button>
+</div>
+
+<script>
+function pay(){
+    alert("Order placed successfully! 🎉");
+}
+</script>
+
+</body>
+</html>
